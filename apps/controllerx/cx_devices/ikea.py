@@ -786,7 +786,7 @@ class E2123MediaPlayerController(MediaPlayerController):
 
     def get_deconz_actions_mapping(self) -> DefaultActionsMapping:
         return {
-            1002: MediaPlayer.PLAY,  # Play; Press/Release or Hold
+            1002: MediaPlayer.PLAY_PAUSE,  # Play; Press/Release or Hold
             2001: MediaPlayer.HOLD_VOLUME_UP,  # +; Hold (every 0.2s)
             2002: MediaPlayer.RELEASE,  # +; Press/Release
             3001: MediaPlayer.HOLD_VOLUME_DOWN,  # +; Hold (every 0.2s)
